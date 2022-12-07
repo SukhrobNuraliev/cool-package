@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Sukhrob\CoolPackage\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class CoolPackageCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'cool-package';
 
     public $description = 'My command';
 

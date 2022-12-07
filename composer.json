@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "sukhrobnuraliev/cool-package",
+    "description": "This is my package cool-package",
     "keywords": [
-        ":vendor_name",
+        "sukhrobnuraliev",
         "laravel",
-        ":package_slug"
+        "cool-package"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/sukhrobnuraliev/cool-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Sukhrob Nuraliev",
+            "email": "sukhrobnuralievv@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Sukhrob\\CoolPackage\\": "src",
+            "Sukhrob\\CoolPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Sukhrob\\CoolPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Sukhrob\\CoolPackage\\CoolPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "CoolPackage": "Sukhrob\\CoolPackage\\Facades\\CoolPackage"
             }
         }
     },
